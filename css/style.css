@@ -1,0 +1,487 @@
+/* General */
+body
+{
+    font-family: 'lato', sans-serif;
+}
+h1,h2,h4,h5,h6
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading h2
+{
+    text-transform: uppercase;
+}
+section .heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.black-divider
+{
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));;
+    margin: 0 auto;
+}
+.white-divider
+{
+    width: 200px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+/* Menu*/
+.navbar
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    font-size: 12;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+} */
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff;
+}
+.navbar-nav li a:hover, .navbar-nav li a.active a:hover
+{
+    color: #d4d4d4;
+}
+
+
+/* About */
+#about
+{
+    padding-top: 100px;
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+}
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#about .heading h1
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+#about .heading h3
+{
+    color: #000;
+}
+#about .heading h6
+{
+    text-align: center;
+    
+}
+.button1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 18px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+    background: #fff;
+    color: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    text-decoration: none;
+}
+
+/* Skills */
+#skills
+{
+    background: #fff;
+}
+#skills .heading h2
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.container h3
+{
+    text-align: center;
+}
+#skills .progress
+{
+    height: 25%;
+    margin: 30px 20px;
+    background-visibility: #ddd;
+}
+#skills .progress-bar
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));;
+}
+#skills .progress h5
+{
+    text-shadow: 100px 100px 100px #000;
+}
+
+/* langues parlées */
+#languages
+{
+    background: #fff;
+}
+#languages .heading h2
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.container h3
+{
+    text-align: center;
+}
+#languages .progress
+{
+    height: 25%;
+    margin: 30px 20px;
+    background-visibility: #ddd;
+}
+#languages .progress-bar
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));;
+}
+#languages .progress h5
+{
+    text-shadow: 100px 100px 100px #000;
+}
+
+/* Hobbies */
+#hobbies
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+}
+#hobbies .heading h2
+{
+    color: #fff;
+    padding-bottom: 20px;
+}
+#hobbies .heading h3
+{
+
+}
+
+/* Experience */
+
+#experience
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+}
+#experience .heading h2
+{
+    color: #fff;
+    padding-bottom: 20px;
+}
+#experience .heading h3 p
+{
+    opacity: 0.7;
+}
+.timeline
+{
+    padding: 30px 10px;
+    position: relative;
+}
+.timeline:before
+{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+.timeline > li
+{
+    margin-bottom: 20px;
+    position: relative;
+    list-style: none;
+}
+.timeline > li:after
+{
+    clear: both;
+}
+.timeline > li:before, .timeline > li:after
+{
+    content: " ";
+    display: table;
+}
+.timeline li .timeline-badge
+{
+    color: #333;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50px;
+}
+.timeline-panel-container
+{
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted
+{
+    width: 50%;
+    float: right;
+}
+.timeline-panel
+{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
+    background: #fff;
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+    float: left;
+    margin-left: 40px; 
+}
+.timeline-panel::after
+{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-heading h4
+{
+    margin-top: 5px;
+    font-size: 40px;
+}
+.timeline-heading h4:hover
+{
+    margin-top: 5px;
+    font-size: 45px;
+}
+.timeline-heading h6
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Education */
+#education
+{
+    background: #fff;
+}
+#education .heading h2
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+}
+.education-block
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.education-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.education-block h3
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.education-block h4
+{
+    color : linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));    
+    margin-bottom: 20px;
+}
+.education-block p
+{
+    font-weight: bold;
+}
+.education-block .black-divider
+{
+    margin-bottom: 20px;
+}
+
+/* portfolio */
+#portfolio
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+}
+#portfolio .heading h2{
+    color: #fff;
+}
+#portfolio img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+
+}
+#portfolio img:hover{
+     filter: none;
+    -webkit-filter: none; 
+    transition: all 0.3s ease-in 0s;
+}
+
+#portfolio .col-sm-3{
+    margin-bottom: 20px;
+    border-radius: 10;
+}
+#portfolio .col-sm-3 h4
+{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Recommendations */
+#Recommendations
+{
+    background: #ccc
+}
+#Recommendations .heading h2
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    background-image: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.carousel-control-prev, .carousel-control-next
+{
+    background-image: none;
+    color: #888;
+    font-size: 25px;
+}
+.carousel-control-next:hover
+{
+    color: #000;
+    font-size: 35px;
+    transition: all 0.3s ease-in 0s;
+}
+.carousel-control-prev:hover
+{
+    color: #000;
+    font-size: 35px;
+    transition: all 0.3s ease-in 0s;
+}
+.carousel-indicators
+{
+    bottom: 0px;
+}
+.carousel-indicators li
+{
+    border-color: #888;
+}
+.carousel-indicators li:active
+{
+    border-color: #000;
+}
+#mycarousel .item
+{
+    padding: 40px 30px;
+}
+#mycarousel .item h3
+{
+    
+    font-style: italic;
+}
+.carousel-inner img
+{
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    border-radius: 1000px;
+    height: 90px;
+    width: 90px;
+}
+
+/* footer */
+footer
+{
+    background: linear-gradient(to right, rgb(181, 135, 135), rgb(74, 96, 115));
+    padding: 20px 0 40px;
+}
+footer i
+{
+    font-size: 25px;
+    margin: 5px;
+    height: 30px;
+}
+footer i:hover
+{
+    font-size: 30px;
+    transition: all 0.2s ease-in 0s;
+}
+footer h5
+{
+    color: #fff;
+    
+}
